@@ -1,6 +1,0 @@
-framework module BeeAFNetworking {
-  umbrella header "BeeAFNetworking.h"
-
-  export *
-  module * { export * }
-}
