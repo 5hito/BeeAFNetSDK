@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAFNetSDK"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "AFNetworking 改名封装"
 
   s.description  = <<-DESC
