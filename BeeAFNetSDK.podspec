@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAFNetSDK"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "AFNetworking 改名封装"
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {"GCC_PREPROCESSOR_DEFINITIONS"=>"SD_WEBP=1"}
 
   #依赖源库
-  s.dependency 'SDWebImage', '~>3.8'
+  s.dependency 'SDWebImage'
   s.dependency 'SDWebImage/WebP'
 
 end
