@@ -2,12 +2,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAFNetSDK"
-  s.version      = "0.1.2"
+  s.version      = "0.2.0"
   s.summary      = "AFNetworking 改名封装"
 
   s.description  = <<-DESC
     0.0.1:简单改名使用，防止跟第三方应用使用af冲突
     0.1.0:将framework改成.a
+    0.2.0:支持bitcode
                    DESC
 
   s.homepage     = "https://github.com/5hito/BeeAFNetSDK"
